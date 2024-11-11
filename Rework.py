@@ -14,7 +14,6 @@ templates = {
     "reward1": ("./images/reward1.png", None),
     "monthlysignin": ("./images/monthlysignin.png", None),
     "dailytasks": ("./images/dailytasks.png", None),
-    "chest1": ("./images/chest1.png", None),
     "fountain": ("./images/fountain.png", None),
     "make-a-wish": ("./images/make-a-wish.png", None),
     "barracks": ("./images/barracks.png", None),
@@ -22,13 +21,17 @@ templates = {
     "target-range": ("./images/target-range.png", None),
     "elvish-gardens": ("./images/elvish-gardens.png", None),
     "deathmatch1": ("./images/deathmatch1.png", None),
+    "dragonschallenge": ("./images/dragonschallenge.png", None),
     "siege-works": ("./images/siege-works.png", None),
     "stables": ("./images/stables.png", None),
+    "returnofthelord": ("./images/returnofthelord.png", None),
+    "claimall": ("./images/claimall.png", None),
     "mail": ("./images/mail.png", None),
+    "bag": ("./images/bag.png", None),
     
     #elfprivelage
     "lv0": ("./images/elfprivelage/lv0.png", None),
-    "chest1": ("./images/elfprivelage/chest1.png", None),
+    "chest": ("./images/elfprivelage/chest.png", None),
     "return2": ("./images/elfprivelage/return2.png", None),
     
     #deathmatch
@@ -42,6 +45,33 @@ templates = {
     "claim4": ("./images/deathmatch/claim4.png", None),
     "return3": ("./images/deathmatch/return3.png", None),
     
+    #dragonschallenge
+    "battle1": ("./images/dragonschallenge/battle1.png", None),
+    "thefallows1": ("./images/dragonschallenge/thefallows1.png", None),
+    "thefallows7": ("./images/dragonschallenge/thefallows7.png", None),
+    "thefallows8": ("./images/dragonschallenge/thefallows8.png", None),
+    "thefallows9": ("./images/dragonschallenge/thefallows9.png", None),
+    "thefallows10": ("./images/dragonschallenge/thefallows10.png", None),
+    "thefallows11": ("./images/dragonschallenge/thefallows11.png", None),
+    "thefallows12": ("./images/dragonschallenge/thefallows12.png", None),
+    "thefallows13": ("./images/dragonschallenge/thefallows13.png", None),
+    "thefallows14": ("./images/dragonschallenge/thefallows14.png", None),
+    "thefallows15": ("./images/dragonschallenge/thefallows15.png", None),
+    "thefallows16": ("./images/dragonschallenge/thefallows16.png", None),
+    "thefallows17": ("./images/dragonschallenge/thefallows17.png", None),
+    "thefallows18": ("./images/dragonschallenge/thefallows18.png", None),
+    "thefallows19": ("./images/dragonschallenge/thefallows19.png", None),
+    "thefallows20": ("./images/dragonschallenge/thefallows20.png", None),
+    
+    "attack1": ("./images/dragonschallenge/attack1.png", None),
+    "rafe": ("./images/dragonschallenge/rafe.png", None),
+    "recommend1": ("./images/dragonschallenge/recommend1.png", None),
+    "ok2": ("./images/dragonschallenge/ok2.png", None),
+    "dispatch": ("./images/dragonschallenge/dispatch.png", None),
+    "attack2": ("./images/dragonschallenge/attack2.png", None),
+    "treasure1": ("./images/dragonschallenge/treasure1.png", None),
+    "claim5": ("./images/dragonschallenge/claim5.png", None),
+    
     
     #dailytaks
     "go": ("./images/dailytasks/go.png", None),
@@ -53,10 +83,14 @@ templates = {
     "warmachine-training": ("./images/dailytasks/warmachine-training.png", None),
     "cavalry-training": ("./images/dailytasks/cavalry-training.png", None),
     "kill-monsters": ("./images/dailytasks/kill-monsters.png", None),
+    "dragons-challenge": ("./images/dailytasks/dragons-challenge.png", None),
     "grain-collection": ("./images/dailytasks/chest2.png", None),
     "lumber-collection": ("./images/dailytasks/chest2.png", None),
     "chest2": ("./images/dailytasks/chest2.png", None),
     "chest3": ("./images/dailytasks/chest3.png", None),
+    "bronze-chest": ("./images/dailytasks/bronze-chest.png", None),
+    "silver-chest": ("./images/dailytasks/silver-chest.png", None),
+    "gold-chest": ("./images/dailytasks/gold-chest.png", None),
     "claim3": ("./images/dailytasks/claim3.png", None),
     
     #portcargo
@@ -92,6 +126,11 @@ templates = {
     "go3": ("./images/map/go3.png", None),
     "start2": ("./images/map/start2.png", None),
     
+    #bag
+    "others": ("./images/bag/others.png", None),
+    "lumberboost": ("./images/bag/lumberboost.png", None),
+    "grainboost": ("./images/bag/grainboost.png", None),
+    "use3": ("./images/bag/use3.png", None),
     
     #mail
     "system": ("./images/mail/system.png", None),
@@ -151,7 +190,7 @@ def start():
     time.sleep(50)
     #Start Game
     find_and_click("start")
-    time.sleep(3)
+    time.sleep(20)
     find_and_click("close1")
     time.sleep(3)
     find_and_click("return")
@@ -160,10 +199,19 @@ def start():
     time.sleep(3)
 
 
+def claimrewards():
+    find_and_click("returnofthelord")
+    time.sleep(2)
+    find_and_click("claimall")
+    time.sleep(2)
+    find_and_click("return")
+
+
 def elfclaim():
+    time.sleep(2)
     find_and_click("lv0")
     time.sleep(3)
-    find_and_click("chest1")
+    find_and_click("chest")
     time.sleep(3)
     find_and_click("return2")
     time.sleep(3)
@@ -214,11 +262,11 @@ def portcargo():
     find_and_click("available")
     time.sleep(120)
     find_and_click("available")
-    time.sleep(120)
-    find_and_click("available")
     time.sleep(180)
     find_and_click("available")
     time.sleep(240)
+    find_and_click("available")
+    time.sleep(3)
     find_and_click("return")
     time.sleep(3)
 
@@ -360,27 +408,27 @@ def cavalarytraining():
 
 
 def killmonster():
-    #find_and_click("dailytasks")
-    #time.sleep(3)
-    #find_and_click("kill-monsters")
-    #find_and_click("go")
-    #time.sleep(3)
-    #find_and_click("searchtool")
-    #time.sleep(3)
-    #find_and_click("monsterslot")
-    #time.sleep(3)
-    #find_and_click("go2")
-    #time.sleep(3)
-    #find_and_click("activatevipstatus")
-    #time.sleep(3)
-    #find_and_click("activatevip")
-    #time.sleep(3)
-    #for i in range(2):
-    #    find_and_click("use")
-    #    time.sleep(2)
-    #time.sleep(3)
-    #for i in range(2):
-    #    find_and_click("return")
+    find_and_click("dailytasks")
+    time.sleep(3)
+    find_and_click("kill-monsters")
+    find_and_click("go")
+    time.sleep(3)
+    find_and_click("searchtool")
+    time.sleep(3)
+    find_and_click("monsterslot")
+    time.sleep(3)
+    find_and_click("go2")
+    time.sleep(3)
+    find_and_click("activatevipstatus")
+    time.sleep(3)
+    find_and_click("activatevip")
+    time.sleep(3)
+    for i in range(2):
+        find_and_click("use")
+        time.sleep(2)
+    time.sleep(3)
+    for i in range(2):
+        find_and_click("return")
     time.sleep(2)
     find_and_click("autoslay")
     time.sleep(2)
@@ -388,21 +436,198 @@ def killmonster():
     time.sleep(2)
     find_and_click("start2")
         
-
-
+        
+def lumbermillandfarmboost():
+    find_and_click("bag")
+    time.sleep(2)
+    find_and_click("others")
+    time.sleep(1)
+    find_and_click("lumberboost")
+    time.sleep(1)
+    find_and_click("use3")
+    time.sleep(1)
+    find_and_click("ok")
+    time.sleep(1)
+    find_and_click("grainboost")
+    time.sleep(1)
+    find_and_click("use3")
+    time.sleep(1)
+    find_and_click("ok")
+    time.sleep(1)
+    find_and_click("return")
+    time.sleep(1)
+    
+           
+def dragonschallenge():
+    #find_and_click("dailytasks")
+    #time.sleep(3)
+    #find_and_click("dragons-challenge")
+    #find_and_click("go")
+    #time.sleep(3)
+    #find_and_click("elvish-gardens")
+    #find_and_click("dragonschallenge")
+    #time.sleep(2)
+    for i in range(10):
+        
+        def atkdragonschallenge():    
+            find_and_click("attack1")
+            time.sleep(1)
+            find_and_click("rafe")
+            time.sleep(1)
+            find_and_click("recommend1")
+            time.sleep(1)
+            find_and_click("ok2")
+            time.sleep(1)
+            find_and_click("dispatch")
+            time.sleep(1)
+            find_and_click("attack2")
+            time.sleep(0.5)
+            find_and_click("return")
+            find_and_click("battle1")
+            time.sleep(1)
+        
+        find_and_click("battle1")
+        time.sleep(1)
+        if find_and_click("treasure1"):
+            time.sleep(1)
+            if find_and_click("claim5"):
+                time.sleep(1)
+                pyautogui.click(y=100, button='left')
+                time.sleep(1)
+                
+        if find_and_click("thefallows7"):
+            time.sleep(1)
+            x, y = pyautogui.position()
+            pyautogui.click(x + 35, y + 80)
+            time.sleep(1)
+            atkdragonschallenge()
+            
+        if find_and_click("thefallows8"):
+            time.sleep(1)
+            x, y = pyautogui.position()
+            pyautogui.click(x + 35, y + 80)
+            time.sleep(1)
+            atkdragonschallenge()
+            
+        if find_and_click("thefallows9"):
+            time.sleep(1)
+            x, y = pyautogui.position()
+            pyautogui.click(x + 35, y + 80)
+            time.sleep(1)
+            atkdragonschallenge()
+            
+        if find_and_click("thefallows10"):
+            time.sleep(1)
+            x, y = pyautogui.position()
+            pyautogui.click(x + 35, y + 80)
+            time.sleep(1)
+            atkdragonschallenge()
+         
+        if find_and_click("thefallows11"):
+            time.sleep(1)
+            x, y = pyautogui.position()
+            pyautogui.click(x + 35, y + 80)
+            time.sleep(1)
+            atkdragonschallenge()
+            
+        if find_and_click("thefallows12"):
+            time.sleep(1)
+            x, y = pyautogui.position()
+            pyautogui.click(x + 35, y + 80)
+            time.sleep(1)
+            atkdragonschallenge()
+            
+        if find_and_click("thefallows13"):
+            time.sleep(1)
+            x, y = pyautogui.position()
+            pyautogui.click(x + 35, y + 80)
+            time.sleep(1)
+            atkdragonschallenge()
+            
+        if find_and_click("thefallows14"):
+            time.sleep(1)
+            x, y = pyautogui.position()
+            pyautogui.click(x + 35, y + 80)
+            time.sleep(1)
+            atkdragonschallenge()
+            
+        if find_and_click("thefallows15"):
+            time.sleep(1)
+            x, y = pyautogui.position()
+            pyautogui.click(x + 35, y + 80)
+            time.sleep(1)
+            atkdragonschallenge()
+            
+        if find_and_click("thefallows16"):
+            time.sleep(1)
+            x, y = pyautogui.position()
+            pyautogui.click(x + 35, y + 80)
+            time.sleep(1)
+            atkdragonschallenge()
+            
+        if find_and_click("thefallows17"):
+            time.sleep(1)
+            x, y = pyautogui.position()
+            pyautogui.click(x + 35, y + 80)
+            time.sleep(1)
+            atkdragonschallenge()
+            
+        if find_and_click("thefallows18"):
+            time.sleep(1)
+            x, y = pyautogui.position()
+            pyautogui.click(x + 35, y + 80)
+            time.sleep(1)
+            atkdragonschallenge()
+            
+        if find_and_click("thefallows19"):
+            time.sleep(1)
+            x, y = pyautogui.position()
+            pyautogui.click(x + 35, y + 80)
+            time.sleep(1)
+            atkdragonschallenge()
+            
+        if find_and_click("thefallows20"):
+            time.sleep(1)
+            x, y = pyautogui.position()
+            pyautogui.click(x + 35, y + 80)
+            time.sleep(1)
+            atkdragonschallenge()
+                
+          
 def collectchestrewards():
     find_and_click("dailytasks")
     time.sleep(3)
-    find_and_click("chest2")
-    time.sleep(3)
+    for i in range(3):
+        find_and_click("chest2")
+        time.sleep(2)
+        find_and_click("claim3")
+        time.sleep(2)
+        pyautogui.click(y=100, button='left')
+        time.sleep(2)
+        find_and_click("chest3")
+        time.sleep(2)
+        find_and_click("claim3")
+        time.sleep(2)
+        pyautogui.click(y=100, button='left')
+        time.sleep(2)
+    find_and_click("bronze-chest")
+    time.sleep(2)
     find_and_click("claim3")
-    time.sleep(3)
-    find_and_click("chest3")
-    time.sleep(3)
+    time.sleep(2)
+    pyautogui.click(y=100, button='left')
+    time.sleep(2)
+    find_and_click("silver-chest")
+    time.sleep(2)
     find_and_click("claim3")
-    time.sleep(3)
-    
-    
+    time.sleep(2)
+    pyautogui.click(y=100, button='left')
+    time.sleep(2)
+    find_and_click("gold-chest")
+    time.sleep(2)
+    find_and_click("claim3")
+    time.sleep(2)
+    pyautogui.click(y=100, button='left')
+    time.sleep(2)
     find_and_click("return")
     time.sleep(3)
 
@@ -422,7 +647,9 @@ def mail():
     
     
 #start()
+#claimrewards()
 #elfclaim()
+##dailytasks
 #Deathmatch()
 #fountaintask()
 #portcargo()
@@ -430,7 +657,9 @@ def mail():
 #infantrytraining()
 #warmachinetraining()
 #cavalarytraining()
-killmonster()
+#killmonster()
+#lumbermillandfarmboost()
+#dragonschallenge()
 
 #collectchestrewards()
 #mail()
