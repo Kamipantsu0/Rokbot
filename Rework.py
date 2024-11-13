@@ -28,11 +28,19 @@ templates = {
     "claimall": ("./images/claimall.png", None),
     "mail": ("./images/mail.png", None),
     "bag": ("./images/bag.png", None),
+    "outside": ("./images/outside.png", None),
+    "hallofheroes": ("./images/hallofheroes.png", None),
+    "hero-summons": ("./images/hero-summons.png", None),
+    "skill-shop": ("./images/skill-shop.png", None),
+    
+    
     
     #elfprivelage
     "lv0": ("./images/elfprivelage/lv0.png", None),
     "chest": ("./images/elfprivelage/chest.png", None),
     "return2": ("./images/elfprivelage/return2.png", None),
+    
+    
     
     #deathmatch
     "challenge": ("./images/deathmatch/challenge.png", None),
@@ -45,7 +53,10 @@ templates = {
     "claim4": ("./images/deathmatch/claim4.png", None),
     "return3": ("./images/deathmatch/return3.png", None),
     
+    
+    
     #dragonschallenge
+    "quick-mode1": ("./images/dragonschallenge/quick-mode1.png", None),
     "battle1": ("./images/dragonschallenge/battle1.png", None),
     "thefallows1": ("./images/dragonschallenge/thefallows1.png", None),
     "thefallows7": ("./images/dragonschallenge/thefallows7.png", None),
@@ -62,6 +73,16 @@ templates = {
     "thefallows18": ("./images/dragonschallenge/thefallows18.png", None),
     "thefallows19": ("./images/dragonschallenge/thefallows19.png", None),
     "thefallows20": ("./images/dragonschallenge/thefallows20.png", None),
+    "thefallows21": ("./images/dragonschallenge/thefallows21.png", None),
+    "thefallows22": ("./images/dragonschallenge/thefallows22.png", None),
+    "thefallows23": ("./images/dragonschallenge/thefallows23.png", None),
+    "thefallows24": ("./images/dragonschallenge/thefallows24.png", None),
+    "thefallows25": ("./images/dragonschallenge/thefallows25.png", None),
+    "thefallows26": ("./images/dragonschallenge/thefallows26.png", None),
+    "thefallows27": ("./images/dragonschallenge/thefallows27.png", None),
+    "thefallows28": ("./images/dragonschallenge/thefallows28.png", None),
+    "thefallows29": ("./images/dragonschallenge/thefallows29.png", None),
+    "thefallows30": ("./images/dragonschallenge/thefallows30.png", None),
     
     "attack1": ("./images/dragonschallenge/attack1.png", None),
     "rafe": ("./images/dragonschallenge/rafe.png", None),
@@ -70,7 +91,9 @@ templates = {
     "dispatch": ("./images/dragonschallenge/dispatch.png", None),
     "attack2": ("./images/dragonschallenge/attack2.png", None),
     "treasure1": ("./images/dragonschallenge/treasure1.png", None),
+    "treasure2": ("./images/dragonschallenge/treasure2.png", None),
     "claim5": ("./images/dragonschallenge/claim5.png", None),
+    
     
     
     #dailytaks
@@ -86,6 +109,10 @@ templates = {
     "dragons-challenge": ("./images/dailytasks/dragons-challenge.png", None),
     "grain-collection": ("./images/dailytasks/chest2.png", None),
     "lumber-collection": ("./images/dailytasks/chest2.png", None),
+    "hero-summons": ("./images/dailytasks/hero-summons.png", None),
+    "heros-skill": ("./images/dailytasks/heros-skill.png", None),
+    "drunken-wizard": ("./images/dailytasks/drunken-wizard.png", None),
+    "knowledge-potion": ("./images/dailytasks/knowledge-potion.png", None),
     "chest2": ("./images/dailytasks/chest2.png", None),
     "chest3": ("./images/dailytasks/chest3.png", None),
     "bronze-chest": ("./images/dailytasks/bronze-chest.png", None),
@@ -93,20 +120,28 @@ templates = {
     "gold-chest": ("./images/dailytasks/gold-chest.png", None),
     "claim3": ("./images/dailytasks/claim3.png", None),
     
+    
+    
     #portcargo
     "available": ("./images/portcargo/available.png", None),
     "monthlysignin": ("./images/portcargo/monthlysignin.png", None),
     "signin": ("./images/portcargo/signin.png", None),
     "dailyoffer": ("./images/portcargo/dailyoffer.png", None),
     
+    
+    
     #troopstrain
     "train2": ("./images/troopstrain/train2.png", None),
-    "num1450": ("./images/troopstrain/num1450.png", None),
+    "reset": ("./images/troopstrain/reset.png", None),
+    "iron1": ("./images/troopstrain/iron1.png", None),
+    "minus": ("./images/troopstrain/minus.png", None),
     "switch-left": ("./images/troopstrain/switch-left.png", None),
     "speedup1": ("./images/troopstrain/speedup1.png", None),
     "quickspeed1": ("./images/troopstrain/quickspeed1.png", None),
     "use1": ("./images/troopstrain/use1.png", None),
     "claim1": ("./images/troopstrain/claim1.png", None),
+    
+    
     
     #fountain
     "grain": ("./images/fountain/grain.png", None),
@@ -115,9 +150,32 @@ templates = {
     "silver": ("./images/fountain/silver.png", None),
     "stone": ("./images/fountain/stone.png", None),
     
+    
+    
+    #herosummons
+    "superb-summon": ("./images/herosummons/superb-summon.png", None),
+    "superb-freesummon": ("./images/herosummons/superb-freesummon.png", None),
+    "elite-summon": ("./images/herosummons/elite-summon.png", None),
+    "elite-freesummon": ("./images/herosummons/elite-freesummon.png", None),
+    "summon1timesuperb": ("./images/herosummons/summon1timesuperb.png", None),
+    "summon1timeelite": ("./images/herosummons/summon1timeelite.png", None),
+    
+    
+    #herosummons
+    "exchange-slot": ("./images/skillshop/exchange-slot.png", None),
+    "exchangesilver": ("./images/skillshop/exchangesilver.png", None),
+    "plus": ("./images/skillshop/plus.png", None),
+    "paysilver": ("./images/skillshop/paysilver.png", None),
+    
+    
     #map
     "searchtool": ("./images/map/searchtool.png", None),
     "monsterslot": ("./images/map/monsterslot.png", None),
+    "lumberslot": ("./images/map/lumberslot.png", None),
+    "farmslot": ("./images/map/farmslot.png", None),
+    "lumbermillfarm": ("./images/map/lumbermillfarm.png", None),
+    "grainfarm": ("./images/map/grainfarm.png", None),
+    "collect1": ("./images/map/collect1.png", None),
     "go2": ("./images/map/go2.png", None),
     "activatevipstatus": ("./images/map/activatevipstatus.png", None),
     "activatevip": ("./images/map/activatevip.png", None),
@@ -125,6 +183,10 @@ templates = {
     "autoslay": ("./images/map/autoslay.png", None),
     "go3": ("./images/map/go3.png", None),
     "start2": ("./images/map/start2.png", None),
+    "mycastle": ("./images/map/mycastle.png", None),
+    "collecting": ("./images/map/collecting.png", None),
+    
+    
     
     #bag
     "others": ("./images/bag/others.png", None),
@@ -132,8 +194,11 @@ templates = {
     "grainboost": ("./images/bag/grainboost.png", None),
     "use3": ("./images/bag/use3.png", None),
     
+    
+    
     #mail
     "system": ("./images/mail/system.png", None),
+    "events": ("./images/mail/events.png", None),
     "allread": ("./images/mail/allread.png", None),
     "claim2": ("./images/mail/claim2.png", None),
     
@@ -189,14 +254,16 @@ def start():
     # Wait for the game to load
     time.sleep(50)
     #Start Game
-    find_and_click("start")
-    time.sleep(20)
-    find_and_click("close1")
-    time.sleep(3)
-    find_and_click("return")
-    time.sleep(3)
-    find_and_click("close2")
-    time.sleep(3)
+    if find_and_click("start"):
+        time.sleep(30)
+        find_and_click("close1")
+        time.sleep(4)
+        find_and_click("return")
+        time.sleep(4)
+        find_and_click("close2")
+        time.sleep(4)
+    else:
+        start()
 
 
 def claimrewards():
@@ -224,16 +291,20 @@ def Deathmatch():
     find_and_click("go")
     time.sleep(3)
     find_and_click("elvish-gardens")
+    time.sleep(1)
+    x, y = pyautogui.position()
+    pyautogui.click(x , y + 20)
+    time.sleep(2)
     find_and_click("deathmatch1")
     time.sleep(3)
     find_and_click("challenge")
     time.sleep(3)
     find_and_click("challenge2")
-    time.sleep(3)
+    time.sleep(4)
     find_and_click("challenge3")
-    time.sleep(2)
+    time.sleep(4)
     find_and_click("ok")
-    time.sleep(2)
+    time.sleep(4)
     find_and_click("back")
     time.sleep(2)
     find_and_click("close")
@@ -311,14 +382,11 @@ def infantrytraining():
     find_and_click("train1")
     time.sleep(3)
     find_and_click("switch-left")
-    for i in range(2):
-        find_and_click("num1450")
-    time.sleep(3)
-    pyautogui.press('delete', presses=5)
-    time.sleep(3)
-    pyautogui.write('50')
-    time.sleep(3)
-    pyautogui.press('enter')
+    x, y = pyautogui.position()
+    time.sleep(1)
+    for i in range(1400):
+        pyautogui.click(x + 25 ,y + 225)
+    time.sleep(1)
     find_and_click("train2")
     find_and_click("speedup1")
     find_and_click("quickspeed1")
@@ -338,14 +406,11 @@ def archertraining():
     find_and_click("train1")
     time.sleep(3)
     find_and_click("switch-left")
-    for i in range(2):
-        find_and_click("num1450")
-    time.sleep(3)
-    pyautogui.press('delete', presses=5)
-    time.sleep(3)
-    pyautogui.write('50')
-    time.sleep(3)
-    pyautogui.press('enter')
+    x, y = pyautogui.position()
+    time.sleep(1)
+    for i in range(1500):
+        pyautogui.click(x + 25 ,y + 225)
+    time.sleep(1)
     find_and_click("train2")
     find_and_click("speedup1")
     find_and_click("quickspeed1")
@@ -364,14 +429,11 @@ def warmachinetraining():
     find_and_click("train1")
     time.sleep(3)
     find_and_click("switch-left")
-    for i in range(2):
-        find_and_click("num1450")
-    time.sleep(3)
-    pyautogui.press('delete', presses=5)
-    time.sleep(3)
-    pyautogui.write('50')
-    time.sleep(3)
-    pyautogui.press('enter')
+    x, y = pyautogui.position()
+    time.sleep(1)
+    for i in range(1270):
+        pyautogui.click(x + 25 ,y + 225)
+    time.sleep(1)
     find_and_click("train2")
     find_and_click("speedup1")
     find_and_click("quickspeed1")
@@ -390,14 +452,11 @@ def cavalarytraining():
     find_and_click("train1")
     time.sleep(3)
     find_and_click("switch-left")
-    for i in range(2):
-        find_and_click("num1450")
-    time.sleep(3)
-    pyautogui.press('delete', presses=5)
-    time.sleep(3)
-    pyautogui.write('50')
-    time.sleep(3)
-    pyautogui.press('enter')
+    x, y = pyautogui.position()
+    time.sleep(1)
+    for i in range(1575):
+        pyautogui.click(x + 25 ,y + 225)
+    time.sleep(1)
     find_and_click("train2")
     find_and_click("speedup1")
     find_and_click("quickspeed1")
@@ -435,6 +494,9 @@ def killmonster():
     find_and_click("go3")
     time.sleep(2)
     find_and_click("start2")
+    time.sleep(2)
+    find_and_click("mycastle")
+    time.sleep(2)
         
         
 def lumbermillandfarmboost():
@@ -457,43 +519,178 @@ def lumbermillandfarmboost():
     find_and_click("return")
     time.sleep(1)
     
+
+def lumbercollection():
+    find_and_click("dailytasks")
+    time.sleep(3)
+    find_and_click("lumber-collection")
+    find_and_click("go")
+    time.sleep(3)
+    find_and_click("searchtool")
+    time.sleep(3)
+    find_and_click("lumberslot")
+    time.sleep(3)
+    find_and_click("go2")
+    time.sleep(3)
+    find_and_click("activatevipstatus")
+    time.sleep(3)
+    find_and_click("activatevip")
+    time.sleep(3)
+    for i in range(2):
+        find_and_click("use")
+        time.sleep(2)
+    time.sleep(3)
+    for i in range(2):
+        find_and_click("return")
+    time.sleep(2)
+    find_and_click("lumbermillfarm")
+    time.sleep(2)
+    find_and_click("collect1")
+    time.sleep(2)
+    if find_and_click("dispatch"):
+        time.sleep(2)
+        find_and_click("mycastle")
+        time.sleep(2)
+    else:
+        lumbercollection()
+
+
+def graincollection():
+    find_and_click("dailytasks")
+    time.sleep(3)
+    find_and_click("grain-collection")
+    find_and_click("go")
+    time.sleep(3)
+    find_and_click("searchtool")
+    time.sleep(3)
+    find_and_click("farmslot")
+    time.sleep(3)
+    find_and_click("go2")
+    time.sleep(3)
+    find_and_click("activatevipstatus")
+    time.sleep(3)
+    find_and_click("activatevip")
+    time.sleep(3)
+    for i in range(2):
+        find_and_click("use")
+        time.sleep(2)
+    time.sleep(3)
+    for i in range(2):
+        find_and_click("return")
+    time.sleep(2)
+    find_and_click("grainfarm")
+    time.sleep(2)
+    find_and_click("collect1")
+    time.sleep(2)
+    if find_and_click("dispatch"):
+        time.sleep(2)
+        find_and_click("mycastle")
+        time.sleep(2)
+    else:
+        graincollection()
+         
+
+def herosummons():
+    find_and_click("dailytasks")
+    time.sleep(3)  
+    find_and_click("hero-summons")
+    find_and_click("go")
+    time.sleep(3)
+    find_and_click("hallofheroes")
+    time.sleep(1)
+    find_and_click("hero-summons")
+    time.sleep(3)
+    def superbsummon():
+        find_and_click("superb-summon")
+        time.sleep(2)
+        for i in range(2):
+            if find_and_click("superb-freesummon") or find_and_click("summon1timesuperb"):
+                time.sleep(4)
+                pyautogui.click(x=100, button='left')
+                time.sleep(2)
+            else:
+                superbsummon()
+    def elitesummon():
+        find_and_click("elite-summon")
+        time.sleep(2)
+        for i in range(3):
+            if find_and_click("elite-freesummon") or find_and_click("summon1timeelite"):
+                time.sleep(4)
+                pyautogui.click(x=100, button='left')
+                time.sleep(2)
+            else:
+                elitesummon()
+                
+    find_and_click("return")
            
+
+def heroskills():
+    find_and_click("dailytasks")
+    time.sleep(3)  
+    find_and_click("heros-skill")
+    find_and_click("go")
+    time.sleep(3)
+    find_and_click("hallofheroes")
+    time.sleep(1)
+    find_and_click("skill-shop")
+    time.sleep(3)
+    find_and_click("exchange-slot")
+    time.sleep(2)
+    find_and_click("exchangesilver")
+    x, y = pyautogui.position()
+    pyautogui.click(x + 350 ,y)
+    time.sleep(1)
+    find_and_click("plus")
+    find_and_click("paysilver")
+    time.sleep(2)
+    find_and_click("ok")
+    time.sleep(2)
+    find_and_click("return")
+
+    
 def dragonschallenge():
-    #find_and_click("dailytasks")
-    #time.sleep(3)
-    #find_and_click("dragons-challenge")
-    #find_and_click("go")
-    #time.sleep(3)
-    #find_and_click("elvish-gardens")
-    #find_and_click("dragonschallenge")
-    #time.sleep(2)
-    for i in range(10):
+    if find_and_click("dailytasks"):
+        time.sleep(3)
+        find_and_click("dragons-challenge")
+        find_and_click("go")
+        time.sleep(3)
+        find_and_click("elvish-gardens")
+        time.sleep(1)
+        x, y = pyautogui.position()
+        pyautogui.click(x , y + 20)
+        time.sleep(1)
+        find_and_click("dragonschallenge")
+    time.sleep(2)
+    
+    for i in range(28):
         
         def atkdragonschallenge():    
-            find_and_click("attack1")
-            time.sleep(1)
-            find_and_click("rafe")
-            time.sleep(1)
-            find_and_click("recommend1")
-            time.sleep(1)
-            find_and_click("ok2")
-            time.sleep(1)
-            find_and_click("dispatch")
-            time.sleep(1)
-            find_and_click("attack2")
-            time.sleep(0.5)
-            find_and_click("return")
-            find_and_click("battle1")
-            time.sleep(1)
+            if find_and_click("attack1"):
+                time.sleep(1)
+                find_and_click("rafe")
+                time.sleep(1)
+                find_and_click("recommend1")
+                time.sleep(1)
+                find_and_click("ok2")
+                time.sleep(1)
+                find_and_click("dispatch")
+                time.sleep(1)
+                find_and_click("attack2")
+                time.sleep(0.5)
+                find_and_click("return")
+                find_and_click("battle1")
+                time.sleep(1)
         
         find_and_click("battle1")
         time.sleep(1)
-        if find_and_click("treasure1"):
+        
+        
+        if find_and_click("treasure1") or find_and_click("treasure2"):
             time.sleep(1)
-            if find_and_click("claim5"):
-                time.sleep(1)
-                pyautogui.click(y=100, button='left')
-                time.sleep(1)
+            find_and_click("claim5")
+            time.sleep(1)
+            pyautogui.click(y=100, button='left')
+            time.sleep(1)
                 
         if find_and_click("thefallows7"):
             time.sleep(1)
@@ -592,44 +789,140 @@ def dragonschallenge():
             pyautogui.click(x + 35, y + 80)
             time.sleep(1)
             atkdragonschallenge()
+            
+        if find_and_click("thefallows21"):
+            time.sleep(1)
+            x, y = pyautogui.position()
+            pyautogui.click(x + 35, y + 80)
+            time.sleep(1)
+            atkdragonschallenge()
+            
+        if find_and_click("thefallows22"):
+            time.sleep(1)
+            x, y = pyautogui.position()
+            pyautogui.click(x + 35, y + 80)
+            time.sleep(1)
+            atkdragonschallenge()
+            
+        if find_and_click("thefallows23"):
+            time.sleep(1)
+            x, y = pyautogui.position()
+            pyautogui.click(x + 35, y + 80)
+            time.sleep(1)
+            atkdragonschallenge()
+            
+        if find_and_click("thefallows24"):
+            time.sleep(1)
+            x, y = pyautogui.position()
+            pyautogui.click(x + 35, y + 80)
+            time.sleep(1)
+            atkdragonschallenge()
+            
+        if find_and_click("thefallows25"):
+            time.sleep(1)
+            x, y = pyautogui.position()
+            pyautogui.click(x + 35, y + 80)
+            time.sleep(1)
+            atkdragonschallenge()
+            
+        if find_and_click("thefallows26"):
+            time.sleep(1)
+            x, y = pyautogui.position()
+            pyautogui.click(x + 35, y + 80)
+            time.sleep(1)
+            atkdragonschallenge()
+            
+        if find_and_click("thefallows27"):
+            time.sleep(1)
+            x, y = pyautogui.position()
+            pyautogui.click(x + 35, y + 80)
+            time.sleep(1)
+            atkdragonschallenge()
+            
+        if find_and_click("thefallows28"):
+            time.sleep(1)
+            x, y = pyautogui.position()
+            pyautogui.click(x + 35, y + 80)
+            time.sleep(1)
+            atkdragonschallenge()
+            
+        if find_and_click("thefallows29"):
+            time.sleep(1)
+            x, y = pyautogui.position()
+            pyautogui.click(x + 35, y + 80)
+            time.sleep(1)
+            atkdragonschallenge()
+            
+        if find_and_click("thefallows30"):
+            time.sleep(1)
+            x, y = pyautogui.position()
+            pyautogui.click(x + 35, y + 80)
+            time.sleep(1)
+            atkdragonschallenge()
                 
-          
-def collectchestrewards():
-    find_and_click("dailytasks")
-    time.sleep(3)
-    for i in range(3):
-        find_and_click("chest2")
-        time.sleep(2)
-        find_and_click("claim3")
-        time.sleep(2)
-        pyautogui.click(y=100, button='left')
-        time.sleep(2)
-        find_and_click("chest3")
-        time.sleep(2)
-        find_and_click("claim3")
-        time.sleep(2)
-        pyautogui.click(y=100, button='left')
-        time.sleep(2)
-    find_and_click("bronze-chest")
+
+def dragonschallenge2():
+    if find_and_click("dailytasks"):
+        time.sleep(3)
+        find_and_click("dragons-challenge")
+        find_and_click("go")
+        time.sleep(3)
+        find_and_click("elvish-gardens")
+        time.sleep(1)
+        x, y = pyautogui.position()
+        pyautogui.click(x , y + 20)
+        time.sleep(1)
+        find_and_click("dragonschallenge")
     time.sleep(2)
-    find_and_click("claim3")
+    find_and_click("quick-mode1")
     time.sleep(2)
-    pyautogui.click(y=100, button='left')
-    time.sleep(2)
-    find_and_click("silver-chest")
-    time.sleep(2)
-    find_and_click("claim3")
-    time.sleep(2)
-    pyautogui.click(y=100, button='left')
-    time.sleep(2)
-    find_and_click("gold-chest")
-    time.sleep(2)
-    find_and_click("claim3")
-    time.sleep(2)
-    pyautogui.click(y=100, button='left')
+    find_and_click("ok")
     time.sleep(2)
     find_and_click("return")
-    time.sleep(3)
+    
+          
+def collectchestrewards():
+    find_and_click("outside")
+    time.sleep(4)
+    if find_and_click("collecting"):
+        time.sleep(2)
+        collectchestrewards()
+    else:
+        find_and_click("dailytasks")
+        time.sleep(3)
+        for i in range(3):
+            find_and_click("chest2")
+            time.sleep(2)
+            find_and_click("claim3")
+            time.sleep(2)
+            pyautogui.click(y=100, button='left')
+            time.sleep(2)
+            find_and_click("chest3")
+            time.sleep(2)
+            find_and_click("claim3")
+            time.sleep(2)
+            pyautogui.click(y=100, button='left')
+            time.sleep(2)
+        find_and_click("bronze-chest")
+        time.sleep(2)
+        find_and_click("claim3")
+        time.sleep(2)
+        pyautogui.click(y=100, button='left')
+        time.sleep(2)
+        find_and_click("silver-chest")
+        time.sleep(2)
+        find_and_click("claim3")
+        time.sleep(2)
+        pyautogui.click(y=100, button='left')
+        time.sleep(2)
+        find_and_click("gold-chest")
+        time.sleep(2)
+        find_and_click("claim3")
+        time.sleep(2)
+        pyautogui.click(y=100, button='left')
+        time.sleep(2)
+        find_and_click("return")
+        time.sleep(3)
 
 
 def mail():
@@ -641,25 +934,40 @@ def mail():
     time.sleep(3)
     find_and_click("claim2")
     time.sleep(3)
+    find_and_click("return")
+    time.sleep(2)
+    find_and_click("events")
+    time.sleep(3)
+    find_and_click("allread")
+    time.sleep(3)
+    find_and_click("claim2")
+    time.sleep(3)
     for i in range(2):
         find_and_click("return")
     
     
     
-#start()
-#claimrewards()
-#elfclaim()
-##dailytasks
-#Deathmatch()
-#fountaintask()
-#portcargo()
-#archertraining()
-#infantrytraining()
-#warmachinetraining()
-#cavalarytraining()
-#killmonster()
-#lumbermillandfarmboost()
-#dragonschallenge()
+start()
+claimrewards()
+elfclaim()
 
-#collectchestrewards()
-#mail()
+##dailytasks
+Deathmatch()
+fountaintask()
+portcargo()
+archertraining()
+infantrytraining()
+warmachinetraining()
+cavalarytraining()
+killmonster()
+lumbermillandfarmboost()
+lumbercollection()
+graincollection()
+herosummons()
+heroskills()
+##knowledgepotion() ==> still not finished
+##dragonschallenge() ==> original but will not be used
+dragonschallenge2()
+
+collectchestrewards()
+mail()
