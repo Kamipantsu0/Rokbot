@@ -29,7 +29,6 @@ templates = {
     "mail": ("./images/mail.png", None),
     "bag": ("./images/bag.png", None),
     "outside": ("./images/outside.png", None),
-    "inside": ("./images/inside.png", None),
     "hallofheroes": ("./images/hallofheroes.png", None),
     "hero-summons2": ("./images/hero-summons2.png", None),
     "skill-shop": ("./images/skill-shop.png", None),
@@ -98,7 +97,6 @@ templates = {
     "rafe": ("./images/dragonschallenge/rafe.png", None),
     "recommend1": ("./images/dragonschallenge/recommend1.png", None),
     "ok2": ("./images/dragonschallenge/ok2.png", None),
-    "ok3": ("./images/dragonschallenge/ok3.png", None),
     "dispatch": ("./images/dragonschallenge/dispatch.png", None),
     "attack2": ("./images/dragonschallenge/attack2.png", None),
     "treasure1": ("./images/dragonschallenge/treasure1.png", None),
@@ -410,7 +408,7 @@ def infantrytraining():
         find_and_click("switch-left")
         x, y = pyautogui.position()
         time.sleep(1)
-        for i in range(1400):
+        for i in range(3391):
             pyautogui.click(x + 25 ,y + 225)
         time.sleep(1)
         find_and_click("train2")
@@ -434,7 +432,7 @@ def archertraining():
         find_and_click("switch-left")
         x, y = pyautogui.position()
         time.sleep(1)
-        for i in range(1500):
+        for i in range(3234):
             pyautogui.click(x + 25 ,y + 225)
         time.sleep(1)
         find_and_click("train2")
@@ -457,7 +455,7 @@ def warmachinetraining():
         find_and_click("switch-left")
         x, y = pyautogui.position()
         time.sleep(1)
-        for i in range(1270):
+        for i in range(6271):
             pyautogui.click(x + 25 ,y + 225)
         time.sleep(1)
         find_and_click("train2")
@@ -480,7 +478,7 @@ def cavalarytraining():
         find_and_click("switch-left")
         x, y = pyautogui.position()
         time.sleep(1)
-        for i in range(1575):
+        for i in range(3226):
             pyautogui.click(x + 25 ,y + 225)
         time.sleep(1)
         find_and_click("train2")
@@ -504,16 +502,16 @@ def killmonster():
         time.sleep(3)
         find_and_click("go2")
         time.sleep(3)
-        if find_and_click("activatevipstatus"):
-            time.sleep(3)
-            find_and_click("activatevip")
-            time.sleep(3)
-            for i in range(2):
-                find_and_click("use")
-                time.sleep(2)
-            time.sleep(3)
-            for i in range(2):
-                find_and_click("return")
+        find_and_click("activatevipstatus")
+        time.sleep(3)
+        find_and_click("activatevip")
+        time.sleep(3)
+        for i in range(2):
+            find_and_click("use")
+            time.sleep(2)
+        time.sleep(3)
+        for i in range(2):
+            find_and_click("return")
         time.sleep(2)
         find_and_click("autoslay")
         time.sleep(2)
@@ -521,9 +519,8 @@ def killmonster():
         time.sleep(2)
         find_and_click("start2")
         time.sleep(2)
-        x, y = pyautogui.position()
-        pyautogui.click(x , y - 400)
-        time.sleep(1)
+        find_and_click("mycastle")
+        time.sleep(2)
     find_and_click("return")
     time.sleep(2)
         
@@ -594,10 +591,6 @@ def lumbercollection():
     find_and_click("lumber-collection")
     find_and_click("go")
     time.sleep(5)
-    find_and_click("inside")
-    time.sleep(5)
-    find_and_click("outside")
-    time.sleep(5)
     find_and_click("searchtool")
     time.sleep(3)
     find_and_click("lumberslot")
@@ -636,11 +629,7 @@ def graincollection():
     time.sleep(3)
     find_and_click("grain-collection")
     find_and_click("go")
-    time.sleep(5)
-    find_and_click("inside")
-    time.sleep(5)
-    find_and_click("outside")
-    time.sleep(5)
+    time.sleep(3)
     find_and_click("searchtool")
     time.sleep(3)
     find_and_click("farmslot")
@@ -691,7 +680,7 @@ def herosummons():
             for i in range(2):
                 if find_and_click("superb-freesummon") or find_and_click("summon1timesuperb"):
                     time.sleep(4)
-                    pyautogui.click(x=60, button='left')
+                    pyautogui.click(x=100, button='left')
                     time.sleep(2)
                 else:
                     superbsummon()
@@ -701,7 +690,7 @@ def herosummons():
             for i in range(3):
                 if find_and_click("elite-freesummon") or find_and_click("summon1timeelite"):
                     time.sleep(4)
-                    pyautogui.click(x=60, button='left')
+                    pyautogui.click(x=100, button='left')
                     time.sleep(2)
                 else:
                     elitesummon()
@@ -965,7 +954,7 @@ def dragonschallenge2():
         time.sleep(2)
         find_and_click("quick-mode1")
         time.sleep(2)
-        find_and_click("ok3")
+        find_and_click("ok")
         time.sleep(2)
     find_and_click("return")
     time.sleep(2)
@@ -1078,22 +1067,22 @@ def mail():
     
     
     
-start()
-claimrewards()
-elfclaim()
+#start()
+#claimrewards()
+#elfclaim()
 
 ## Those are dailytasks:
 
-Deathmatch()
-portcargo()
-fountaintask()
+#Deathmatch()
+#portcargo()
+#fountaintask()
 infantrytraining()
 archertraining()
 cavalarytraining()
 warmachinetraining()
 killmonster()
-#lumbercollection() 
-#graincollection() 
+lumbercollection()
+graincollection()
 dragonschallenge2()
 ##dragonschallenge() ==> original but will not be used
 grainboost()

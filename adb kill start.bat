@@ -1,6 +1,0 @@
-@echo off
-echo Killing ADB server...
-adb kill-server
-echo Starting ADB server...
-adb start-server
-echo ADB restarted successfully.
